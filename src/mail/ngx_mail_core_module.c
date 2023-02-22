@@ -28,6 +28,7 @@ static char *ngx_mail_core_resolver(ngx_conf_t *cf, ngx_command_t *cmd,
 
 
 static ngx_command_t  ngx_mail_core_commands[] = {
+    
 
     { ngx_string("server"),
       NGX_MAIL_MAIN_CONF|NGX_CONF_BLOCK|NGX_CONF_NOARGS,
